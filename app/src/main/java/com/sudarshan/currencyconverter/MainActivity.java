@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     {
         EditText dollar_amount = findViewById(R.id.editText);
         Double dollar = Double.parseDouble(dollar_amount.getText().toString());
-        Double inr = dollar * 70;
+        Double inr = dollar * 71.24;
         TextView output = (TextView) findViewById(R.id.textView);
         output.setText(inr.toString());
     }
